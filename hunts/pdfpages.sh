@@ -8,6 +8,8 @@ FILES=$(ls *.tex)
 
 cat << EOF > index.tex
 \documentclass{scrartcl}
+\usepackage{booktabs}
+\usepackage{longtable}
 \usepackage{hyperref}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
